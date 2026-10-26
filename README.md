@@ -4,7 +4,7 @@
 
 ### Project Overview
 
-For this project, I developed an intelligent pirate agent capable of navigating a maze to locate treasure using deep Q-learning. The goal was to train the agent to find an efficient path to the treasure while avoiding obstacles. This project demonstrated how reinforcement learning and neural networks can be combined to solve pathfinding problems.
+For this project, I developed an intelligent pirate agent capable of navigating a maze to locate treasure using deep Q-learning. The goal was to train the agent to find an efficient path to the treasure while avoiding obstacles. This project demonstrated how reinforcement learning and neural networks can be combined to solve pathfinding problems. The agent was trained using deep Q-learning with experience replay, an epsilon-greedy exploration strategy, and periodic target network updates. The training process used an 8×8 maze containing pathways and obstacles. During testing, the model achieved a 100% recent win rate and passed the completion check at epoch 324, demonstrating that the agent had learned to navigate from the available starting positions to the treasure.
 
 ### What Code Was Provided, and What Did I Create?
 
